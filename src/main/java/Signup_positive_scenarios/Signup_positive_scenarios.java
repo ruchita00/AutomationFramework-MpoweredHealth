@@ -116,14 +116,13 @@ public class Signup_positive_scenarios extends Generic_function {
 	public void signup_positive_tc_007() throws IOException, InterruptedException {
 		try {
 			driver.findElement(By.xpath(OR_reader("Object_Locator", "otp"))).sendKeys(td_reader("otp"));
-			click("verify");
-			 browser_close();	
+			click("verify");	
 		}catch(Exception e) {
 			e.printStackTrace();
 			takeScreenShot("signup_positive_tc_006");
 		}
 		Thread.sleep(1000);
-       
+                 browser_close();
 	}
             
 }
