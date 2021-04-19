@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="416.183" tests="38" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.boot.library.path" value="C:\Users\Akhila\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Akhila\Downloads\Framework-integrated-main (1)\Framework-integrated-main"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Akhila\Downloads\Framework-integrated-main (1)\Framework-integrated-main"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Akhila\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Akhila\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf11534889571722759139.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Akhila\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Akhila/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/Akhila/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\gradle-6.8.3\bin;C:\Gradle\apache-maven-3.6.3\bin;C:\Users\Akhila\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Users\Akhila\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm 2020.3\bin;;C:\Users\Akhila\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Akhila\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Akhila"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="Akhila"/>
+    <property name="java.class.path" value="C:\Users\Akhila\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Users\Akhila\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Akhila\Downloads\Framework-integrated-main (1)\Framework-integrated-main\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="runScenario" classname="Runner_Files.Landing_welcome_positive_scenarios_runner" time="98.654"/>
+  <testcase name="runScenario" classname="Runner_Files.Landing_welcome_positive_scenarios_runner" time="5.161"/>
+  <testcase name="runScenario" classname="Runner_Files.Landing_welcome_positive_scenarios_runner" time="6.221"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="45.304"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="4.016"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="3.249"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="3.252"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="2.978"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="5.421"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="2.802"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="2.496"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="3.729"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_negative_scenarios_runner" time="1.903"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_positive_scenarios_runner" time="23.109"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_positive_scenarios_runner" time="4.004"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_positive_scenarios_runner" time="3.396"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_positive_scenarios_runner" time="1.633"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_positive_scenarios_runner" time="1.733"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_positive_scenarios_runner" time="3.145"/>
+  <testcase name="runScenario" classname="Runner_Files.Signup_positive_scenarios_runner" time="4.271"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_negative_scenarios_runner" time="28.937"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_negative_scenarios_runner" time="4.49"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_negative_scenarios_runner" time="3.501"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_negative_scenarios_runner" time="4.249"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_negative_scenarios_runner" time="4.089"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_negative_scenarios_runner" time="1.193"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_negative_scenarios_runner" time="1.538"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_positive_scenarios_runner" time="80.464"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_positive_scenarios_runner" time="5.283"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_positive_scenarios_runner" time="4.116"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_positive_scenarios_runner" time="1.11"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_positive_scenarios_runner" time="7.617"/>
+  <testcase name="runScenario" classname="Runner_Files.Login_positive_scenarios_runner" time="4.109"/>
+  <testcase name="runScenario" classname="Runner_Files.Forgot_password_negative_scenarios_runner" time="17.586"/>
+  <testcase name="runScenario" classname="Runner_Files.Forgot_password_negative_scenarios_runner" time="3.551"/>
+  <testcase name="runScenario" classname="Runner_Files.Forgot_password_negative_scenarios_runner" time="0.089"/>
+  <testcase name="runScenario" classname="Runner_Files.Forgot_password_negative_scenarios_runner" time="0.109"/>
+  <testcase name="runScenario" classname="Runner_Files.Forgot_password_negative_scenarios_runner" time="0.033"/>
+</testsuite>

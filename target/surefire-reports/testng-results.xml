@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-17T19:50:55 IST" name="Suite" finished-at="2021-04-17T19:57:50 IST" duration-ms="414619">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Landing_welcome_positive_scenarios_runner@38e79ae3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_positive_scenarios_runner@2a266d09]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Forgot_password_negative_scenarios_runner@36b4fe2a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-04-17T19:50:55 IST" name="Test1" finished-at="2021-04-17T19:52:51 IST" duration-ms="115467">
+      <class name="Runner_Files.Landing_welcome_positive_scenarios_runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner_Files.Landing_welcome_positive_scenarios_runner@38e79ae3]" started-at="2021-04-17T19:50:55 IST" name="setUpClass" finished-at="2021-04-17T19:50:57 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Landing_welcome_positive_scenarios_runner@38e79ae3]" started-at="2021-04-17T19:50:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:52:35 IST" duration-ms="98650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is navigated to Welcome page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to see Welcome Screen,Login and Sign up]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Landing_welcome_positive_scenarios_runner@38e79ae3]" started-at="2021-04-17T19:52:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:52:41 IST" duration-ms="5165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on Login button and navigate to Login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to see Welcome Screen,Login and Sign up]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Landing_welcome_positive_scenarios_runner@38e79ae3]" started-at="2021-04-17T19:52:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:52:47 IST" duration-ms="6221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on Sign Up button and navigate to Sign Up page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to see Welcome Screen,Login and Sign up]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_Files.Landing_welcome_positive_scenarios_runner@38e79ae3]" started-at="2021-04-17T19:52:47 IST" name="tearDownClass" finished-at="2021-04-17T19:52:51 IST" duration-ms="3809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_Files.Landing_welcome_positive_scenarios_runner -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-04-17T19:52:51 IST" name="Test2" finished-at="2021-04-17T19:54:08 IST" duration-ms="77725">
+      <class name="Runner_Files.Signup_negative_scenarios_runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:52:51 IST" name="setUpClass" finished-at="2021-04-17T19:52:51 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:52:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:53:36 IST" duration-ms="45304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a validation message on entering invalid data in firstname  and lastname  fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:53:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:53:40 IST" duration-ms="4016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a  validation message  on entering invalid Email ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:53:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:53:43 IST" duration-ms="3248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should  get a  validation message on leaving Email ID field  blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:53:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:53:47 IST" duration-ms="3251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a validation message on entering phone number with less than 10 digits in the Phone number field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:53:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:53:50 IST" duration-ms="2978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a  validation message on entering phone number with more than 10 digits in Phone number field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:53:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:53:55 IST" duration-ms="5420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a validation message on entering already registered phone number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:53:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:53:58 IST" duration-ms="2801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should  get a  validation message on leaving Email ID field  blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:53:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:00 IST" duration-ms="2496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the password strength message  and progress bar is displayed while entering password in Password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:54:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:04 IST" duration-ms="3730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a  validation message on entering different data in Password and Confirm Password fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:54:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:06 IST" duration-ms="1903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the Sign Up button is disabled  when Terms & Conditions is unchecked"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign up button should be present on landing welcome page and on Sign up screen, user should able to provide information]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_Files.Signup_negative_scenarios_runner@672872e1]" started-at="2021-04-17T19:54:06 IST" name="tearDownClass" finished-at="2021-04-17T19:54:08 IST" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_Files.Signup_negative_scenarios_runner -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-04-17T19:54:09 IST" name="Test3" finished-at="2021-04-17T19:54:52 IST" duration-ms="43721">
+      <class name="Runner_Files.Signup_positive_scenarios_runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" started-at="2021-04-17T19:54:09 IST" name="setUpClass" finished-at="2021-04-17T19:54:09 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" started-at="2021-04-17T19:54:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:32 IST" duration-ms="23094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the browser is lauched and user clicks on the Signup button and navigates to Signup page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" started-at="2021-04-17T19:54:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:36 IST" duration-ms="4018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is navigated to the login page on clicking the login link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" started-at="2021-04-17T19:54:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:39 IST" duration-ms="3396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the data entered in both Password and Confirm password fields are masked"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" started-at="2021-04-17T19:54:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:41 IST" duration-ms="1634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the password should be displayed on an eye click for Password fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" started-at="2021-04-17T19:54:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:42 IST" duration-ms="1733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the Confirm password field by comparing data entered in the Password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" started-at="2021-04-17T19:54:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:46 IST" duration-ms="3145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on Sign Up with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" started-at="2021-04-17T19:54:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:54:50 IST" duration-ms="4271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user should be navigated to the otp Login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@484970b0]" started-at="2021-04-17T19:54:50 IST" name="tearDownClass" finished-at="2021-04-17T19:54:52 IST" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_Files.Signup_positive_scenarios_runner -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-04-17T19:54:52 IST" name="Test4" finished-at="2021-04-17T19:55:43 IST" duration-ms="50540">
+      <class name="Runner_Files.Login_negative_scenarios_runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" started-at="2021-04-17T19:54:52 IST" name="setUpClass" finished-at="2021-04-17T19:54:52 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" started-at="2021-04-17T19:54:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:55:21 IST" duration-ms="28933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is not allowed to login when Phone number and Password fields are blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" started-at="2021-04-17T19:55:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:55:26 IST" duration-ms="4530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a validation message on entering invalid credentials in the Login Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" started-at="2021-04-17T19:55:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:55:29 IST" duration-ms="3502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user is not allowed to enter more than 10 digits in the Phone number field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" started-at="2021-04-17T19:55:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:55:34 IST" duration-ms="4249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is not allowed to login with invalid Phone number and valid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" started-at="2021-04-17T19:55:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:55:38 IST" duration-ms="4089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is not allowed to login with invalid Password and valid phone number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" started-at="2021-04-17T19:55:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:55:39 IST" duration-ms="1192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user is not able to login on leaving Phone number field blank and only giving valid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" started-at="2021-04-17T19:55:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:55:40 IST" duration-ms="1538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user is not able to login on leaving Password field blank and only giving valid Phone number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_Files.Login_negative_scenarios_runner@60015ef5]" started-at="2021-04-17T19:55:40 IST" name="tearDownClass" finished-at="2021-04-17T19:55:43 IST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_Files.Login_negative_scenarios_runner -->
+    </test> <!-- Test4 -->
+    <test started-at="2021-04-17T19:55:43 IST" name="Test5" finished-at="2021-04-17T19:57:28 IST" duration-ms="104817">
+      <class name="Runner_Files.Login_positive_scenarios_runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner_Files.Login_positive_scenarios_runner@2a266d09]" started-at="2021-04-17T19:55:43 IST" name="setUpClass" finished-at="2021-04-17T19:55:43 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_positive_scenarios_runner@2a266d09]" started-at="2021-04-17T19:55:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:03 IST" duration-ms="80465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the Phone number' field is prefixed with +1 country code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test login page positive functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_positive_scenarios_runner@2a266d09]" started-at="2021-04-17T19:57:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:09 IST" duration-ms="5282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to click on the Forgot password? link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test login page positive functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_positive_scenarios_runner@2a266d09]" started-at="2021-04-17T19:57:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:13 IST" duration-ms="4115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able click on the Sign up link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test login page positive functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_positive_scenarios_runner@2a266d09]" started-at="2021-04-17T19:57:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:14 IST" duration-ms="1110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to enter  the Password in the Password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test login page positive functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_positive_scenarios_runner@2a266d09]" started-at="2021-04-17T19:57:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:22 IST" duration-ms="7617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to Login with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test login page positive functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Login_positive_scenarios_runner@2a266d09]" started-at="2021-04-17T19:57:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:26 IST" duration-ms="4108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is navigated to Landing page on clicking the Log out option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test login page positive functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_Files.Login_positive_scenarios_runner@2a266d09]" started-at="2021-04-17T19:57:26 IST" name="tearDownClass" finished-at="2021-04-17T19:57:28 IST" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_Files.Login_positive_scenarios_runner -->
+    </test> <!-- Test5 -->
+    <test started-at="2021-04-17T19:57:28 IST" name="Test6" finished-at="2021-04-17T19:57:50 IST" duration-ms="22006">
+      <class name="Runner_Files.Forgot_password_negative_scenarios_runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner_Files.Forgot_password_negative_scenarios_runner@36b4fe2a]" started-at="2021-04-17T19:57:28 IST" name="setUpClass" finished-at="2021-04-17T19:57:28 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Forgot_password_negative_scenarios_runner@36b4fe2a]" started-at="2021-04-17T19:57:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:45 IST" duration-ms="17589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get the validation message when phone number field is blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User can reset password by clicking on Forgot password link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Forgot_password_negative_scenarios_runner@36b4fe2a]" started-at="2021-04-17T19:57:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:46 IST" duration-ms="394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a validation message on entering less than ten digit phone number in phone number field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User can reset password by clicking on Forgot password link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Forgot_password_negative_scenarios_runner@36b4fe2a]" started-at="2021-04-17T19:57:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:46 IST" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a validation message on entering more than ten digit phone number in phone number field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User can reset password by clicking on Forgot password link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Forgot_password_negative_scenarios_runner@36b4fe2a]" started-at="2021-04-17T19:57:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:47 IST" duration-ms="513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the Send Reset Link button is disabled when Phone number field is blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User can reset password by clicking on Forgot password link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Forgot_password_negative_scenarios_runner@36b4fe2a]" started-at="2021-04-17T19:57:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T19:57:47 IST" duration-ms="637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should able to get a validation message on entering non registered phone number in the phone number field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User can reset password by clicking on Forgot password link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_Files.Forgot_password_negative_scenarios_runner@36b4fe2a]" started-at="2021-04-17T19:57:47 IST" name="tearDownClass" finished-at="2021-04-17T19:57:50 IST" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_Files.Forgot_password_negative_scenarios_runner -->
+    </test> <!-- Test6 -->
+  </suite> <!-- Suite -->
+</testng-results>

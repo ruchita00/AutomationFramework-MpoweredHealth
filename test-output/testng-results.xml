@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40926" started-at="2021-04-16T17:56:15 IST" finished-at="2021-04-16T17:56:56 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@c81cdd1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="40926" started-at="2021-04-16T17:56:15 IST" finished-at="2021-04-16T17:56:56 IST">
+      <class name="Runner_Files.Signup_positive_scenarios_runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@c81cdd1]" name="setUpClass" is-config="true" duration-ms="1838" started-at="2021-04-16T17:56:15 IST" finished-at="2021-04-16T17:56:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@c81cdd1]" name="runScenario" duration-ms="18439" started-at="2021-04-16T17:56:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-16T17:56:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the browser is lauched and user clicks on the Signup button and navigates to Signup page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@c81cdd1]" name="runScenario" duration-ms="4388" started-at="2021-04-16T17:56:36 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-16T17:56:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the data entered in both Password and Confirm password fields are masked"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@c81cdd1]" name="runScenario" duration-ms="2898" started-at="2021-04-16T17:56:40 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-16T17:56:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the password should be displayed on an eye click for Password fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@c81cdd1]" name="runScenario" duration-ms="3073" started-at="2021-04-16T17:56:43 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-16T17:56:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the Confirm password field by comparing data entered in the Password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@c81cdd1]" name="runScenario" duration-ms="4198" started-at="2021-04-16T17:56:46 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-16T17:56:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on Sign Up with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@c81cdd1]" name="runScenario" duration-ms="2688" started-at="2021-04-16T17:56:50 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-16T17:56:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able go otp varification page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@c81cdd1]" name="tearDownClass" is-config="true" duration-ms="3295" started-at="2021-04-16T17:56:53 IST" finished-at="2021-04-16T17:56:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_Files.Signup_positive_scenarios_runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
